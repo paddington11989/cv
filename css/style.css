@@ -141,7 +141,7 @@ ul li{
     position: absolute;
     top: calc(60% - 0rem);
     left:50rem;
-    animation: spin infinite 50s linear;
+    animation: spin infinite 40s linear;
 }
 @keyframes spin{
     0%, 100% {
@@ -208,7 +208,7 @@ ul li{
         position: absolute;
         top: calc(60% - 0rem);
         left:40rem;
-        animation: telegram infinite 20s linear;
+        animation: telegram infinite 40s linear;
     }
     .telegram{
         position: absolute;
@@ -270,13 +270,13 @@ ul li{
         position: absolute;
         top: calc(60% - 0rem);
         left:30rem;
-        animation: telegram infinite 20s linear;
+        animation: telegram infinite 40s linear;
     }
     .telegram{
         position: absolute;
         top: calc(60% - 0rem);
         left:15rem;
-        animation: telegram infinite 30s linear;
+        animation: telegram infinite 20s linear;
     }
     
     .navigation{
@@ -328,7 +328,7 @@ ul li{
         position: absolute;
         top: calc(60% - 0rem);
         left:25rem;
-        animation: telegram infinite 20s linear;
+        animation: telegram infinite 40s linear;
     }
     .telegram{
         position: absolute;
@@ -357,7 +357,7 @@ ul li{
         position: absolute;
         top: calc(60% - 0rem);
         left:20rem;
-        animation: telegram infinite 20s linear;
+        animation: telegram infinite 40s linear;
     }
     .telegram{
         position: absolute;
