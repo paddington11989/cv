@@ -394,3 +394,41 @@ ul li{
     }
     
 }
+@media(max-width:320px){
+    .section__block{
+        padding:8px;
+    }
+    .github{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:15rem;
+        animation: telegram infinite 20s linear;
+    }
+    .telegram{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:8rem;
+        animation: telegram infinite 20s linear;
+    }
+    .whatsapp{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:3rem;
+        animation: wapp infinite 30s linear;
+    }
+    .contacts{
+        padding:10px;
+    }
+    .code{
+        padding:10px;
+    }
+    .lang{
+        padding:10px;
+    }
+    .edu{
+        padding:10px;
+    }
+    .skills{
+        padding:10px;
+    }
+}
