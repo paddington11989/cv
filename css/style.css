@@ -371,30 +371,36 @@ ul li{
         left:5rem;
         animation: wapp infinite 30s linear;
     }
-    .contacts{
-        padding:20px;
-    }
-    .code{
-        padding:20px;
-    }
-    .lang{
-        padding:20px;
-    }
-    .edu{
-        padding:20px;
-    }
-    .skills{
-        padding:20px;
-    }
+    
     
 }
+
+
+
 @media(max-width:425px){
     .section__block{
-        padding:13px;
+        padding:20px;
     }
     
 }
-@media(max-width:320px){
+@media(max-width:410px){
+    .contacts{
+        padding:30px 0px;
+    }
+    .code{
+        padding:30px 0px;
+    }
+    .lang{
+        padding:30px 0px;
+    }
+    .edu{
+        padding:30px 0px;
+    }
+    .skills{
+        padding:30px 0px;
+    }
+}
+@media(max-width:360px){
     .section__block{
         padding:8px;
     }
@@ -416,19 +422,5 @@ ul li{
         left:3rem;
         animation: wapp infinite 30s linear;
     }
-    .contacts{
-        padding:10px;
-    }
-    .code{
-        padding:10px;
-    }
-    .lang{
-        padding:10px;
-    }
-    .edu{
-        padding:10px;
-    }
-    .skills{
-        padding:10px;
-    }
+    
 }
