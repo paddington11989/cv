@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            
+        <nav class="header__nav ">
+            <ul class="navigation" id="menu__show">
+                <li class="nav__item"><a href="#about" class="nav__list">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__list">Skills</a></li>
+                <li class="nav__item"><a href="#education" class="nav__list">Education</a></li>
+                <li class="nav__item"><a href="#language" class="nav__list">Language</a></li>
+                <li class="nav__item"><a href="#code" class="nav__list">Code</a></li>
+                <li class="nav__item"><a href="#contacts" class="nav__list">Contacts</a></li>
+            </ul>
+            <button class="toggle"></button>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__me">
+                <h1 class="about__name text_color">Myskal Ismailova</h1>
+                <p class="about__descr text_color">I learned development on my own and now I want to improve my skills.I plan to become a Frontend Developer who will offer improvements, highlight some omissions, and not just code.</p>   
+            </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="section__block">
+                    <h3 class="section__title">Hard Skills</h3>
+                <ul class="skills__list">
+                    <li class="skills__item">HTML5</li>
+                    <li class="skills__item">CSS3</li>
+                    <li class="skills__item">GIT/GitHub</li>
+                    <li class="skills__item">Figma</li>
+                    <li class="skills__item">Bootstrap</li>
+                    <li class="skills__item">Javascript(Основы)</li>
+                </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="edu" id="education">
+            <div class="container">
+                <div class="section__block">
+                <h3 class="section__title">Education and courses</h3>
+                <p class="edu__text">FreeCodeCamp</p>
+                <p class="edu__text">Sololearn</p>
+                <p class="edu__text">YouTube tutorials</p>
+                <p class="edu__text">Course Angela Yu (HTML/CSS)</p>
+                </div>
+            </div>
+        </section>
+        <section class="lang" id="language">
+            <div class="container">
+                <div class="section__block">
+                <h3 class="section__title">Language</h3>
+                <div class="lang__block">
+                <div class="lang__col">
+                    <p class="lang__text">English</p>
+                    <p class="lang__degree">A2</p>
+                </div>
+                <div class="lang__col">
+                    <p class="lang__text">Russian</p>
+                    <p class="lang__degree">Native</p>
+                </div>
+                <div class="lang__col">
+                    <p class="lang__text">Kyrgyz</p>
+                    <p class="lang__degree">Native</p>
+                </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="code" id="code">
+            <div class="container">
+                <div class="section__block">
+                    <h3 class="section__title">Code Examples</h3>
+                    <p class="js">
+                        <span class="color_blue">function</span> <span class="color_red">showMessage<span class="color_grey">()</span></span><span class="color_red"><span class="color_grey">{</span><br>
+                            alert (<span class="color_green">'Hi, everyone!!!'</span>)<span class="color_grey">};</span></span>
+                    </p>
+                    <p class="js_2">
+                        <span class="color_red">showMessage <span class="color_grey">();</span></span>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="section__block">
+                    <h3 class="section__title">Contacts</h3>
+                <div class="contact-links github">
+                    <a href="https://github.com/paddington11989" class="contact-links__item">
+                        <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="58px" height="58px">
+                            <path d="M44,24c0,8.96-5.88,16.54-14,19.08V38c0-1.71-0.72-3.24-1.86-4.34c5.24-0.95,7.86-4,7.86-9.66c0-2.45-0.5-4.39-1.48-5.9 c0.44-1.71,0.7-4.14-0.52-6.1c-2.36,0-4.01,1.39-4.98,2.53C27.57,14.18,25.9,14,24,14c-1.8,0-3.46,0.2-4.94,0.61 C18.1,13.46,16.42,12,14,12c-1.42,2.28-0.84,4.74-0.3,6.12C12.62,19.63,12,21.57,12,24c0,5.66,2.62,8.71,7.86,9.66 c-0.67,0.65-1.19,1.44-1.51,2.34H16c-1.44,0-2-0.64-2.77-1.68c-0.77-1.04-1.6-1.74-2.59-2.03c-0.53-0.06-0.89,0.37-0.42,0.75 c1.57,1.13,1.68,2.98,2.31,4.19C13.1,38.32,14.28,39,15.61,39H18v4.08C9.88,40.54,4,32.96,4,24C4,12.95,12.95,4,24,4 S44,12.95,44,24z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="contact-links whatsapp">
+                    <a href="https://wa.me/+996707013597" class="contact-links__item">
+                      <span class="icon"></span>
+                    </a>
+                </div>
+                <div class="contact-links telegram">
+                    <a href="https://t.me/Ismailova07" class="contact-links__item">
+                       <span class="icon_telegram"></span>
+                    </a>
+                </div>
+
+
+                <div class="contact-links telephone">
+                    <span class="ico"><i class="fa-solid fa-phone"></i></span>
+                    <a href="tel:+996707013597" class="contact-links__item tel">
+                        0707 01 35 97
+                    </a>
+                </div>
+                <div class="contact-links email">
+                    <span class="ico"><i class="fa-solid fa-envelope"></i></span>
+                    <a href="mailto:ismailovamyskal17@gmail.com" class="contact-links__item email">
+                        ismailovamyskal17@gmail.com
+                    </a>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__copyright">
+                <p>© 2022 by Myskal Ismailova</p>
+            </div>
+           
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #1d262d;
+    color:#fff;
+}
+ul li{
+    list-style-type: none;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 15px;
+}
+.header{
+    background-color: #243646;
+    padding:30px 10px;
+}
+.toggle{
+    display:none;
+}
+
+.navigation{
+    display:flex;
+}
+
+.navigation>li>a{
+    text-decoration: none;
+    color:#fff;
+}
+.navigation>li +li{
+    margin-left:2em;
+}
+
+.about__me{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:65px;
+}
+.text_color{
+    color:#4EB1BA;
+}
+.about__name{
+    font-size:3rem;
+    margin:0 0 30px;
+    position: relative;
+}
+.about__name:after{
+    position: absolute;
+    content:"";
+    width:40%;
+    top:100%;
+    left:0;
+    background-color: #4EB1BA;
+    height:3px;
+    border-radius:20px;
+}
+.about__descr{
+   font-size:1.5rem;
+   margin:0 0 30px;
+}
+
+.skills{
+    background-color: #243646;
+    padding:65px;
+}
+.section__title{
+    margin:0 0 25px;
+    color:#4EB1BA;
+    font-size:1.5rem;
+}
+
+.skills__item{
+    margin:0 0 15px;
+    transition: all .2s ease;
+}
+.skills__item:hover{
+    color:#4EB1BA;
+}
+
+.edu{
+    padding:65px;
+}
+.section__block{
+    max-width:460px;
+    border-radius: 8px;
+    padding:40px;
+    background-color: #243646;
+    box-shadow:0px 0px 10px 4px rgb(0 0 0 / 25%);
+}
+
+.edu__text{
+    margin:0 0 15px;
+    padding:0 0 5px;
+    border-bottom:1px solid #fff;
+}
+.lang{
+    padding:65px;
+    background-color: #243646;
+}
+.lang__block{
+    display:flex;
+    justify-content: space-between;
+}
+
+.code{
+    padding:65px;
+}
+.color_blue{
+    color:#348acb;
+}
+.color_red{
+    color:rgb(246, 53, 172);
+}
+.color_green{
+    color:rgb(112, 237, 34);
+}
+.color_grey{
+    color:rgb(179, 179, 179);
+}
+
+
+
+.contacts{
+    padding:65px;
+    background-color: #243646;
+    position: relative;
+}
+.contact-links{
+    margin-bottom: 10px;
+}
+.github{
+    position: absolute;
+    top: calc(60% - 0rem);
+    left:50rem;
+    animation: spin infinite 50s linear;
+}
+@keyframes spin{
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-1350px) rotate(360deg);
+    }
+}
+.ico{
+    cursor: pointer;
+    display: inline-block;
+    color:#4EB1BA;
+    margin-right:5px;
+}
+.tel{
+    text-decoration: none;
+    color:#fff;
+}
+.email{
+    text-decoration: none;
+    color:#fff;
+}
+
+.icon{
+    display:block;
+    width:40px;
+    height:40px;
+    background-image: url('/icons/whatsapp-svgrepo-com.svg');
+}
+.icon_telegram{
+    display:block;
+    width:40px;
+    height:40px;
+    background-image: url('/icons/send_black_24dp.svg');
+    background-repeat: no-repeat;
+}
+.telegram{
+    position: absolute;
+    top: calc(60% - 0rem);
+    left:30rem;
+    animation: telegram infinite 20s linear;
+}
+@keyframes telegram{
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-850px) rotate(360deg);
+    }
+}
+.whatsapp{
+    position: absolute;
+    top: calc(60% - 0rem);
+    left:10rem;
+    animation: wapp infinite 30s linear;
+}
+@keyframes wapp{
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-1050px) rotate(360deg);
+    }
+}
+
+.footer{
+    padding:40px 0;
+
+}
+
+@media(max-width:890px){
+    .container{
+        max-width:890px;
+    }
+    .github{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:40rem;
+        animation: telegram infinite 20s linear;
+    }
+    .telegram{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:20rem;
+        animation: telegram infinite 20s linear;
+    }
+}
+@media(max-width:720px){
+    .toggle{
+        position: relative;
+        width:30px;
+        height:16px;
+        cursor:pointer;
+        border:none;
+        background:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+    }
+    
+    .toggle.active{
+        background: none;
+    }
+    
+    .toggle::before{
+      content:"";
+      position: absolute;
+      width:30px;
+      height:1.8px;
+      background:#fff;
+      transition: 0.2s;
+      transform: translateY(-10px);
+      box-shadow: 0 10px 0 #fff;
+    }
+    .toggle.active::before{
+      transform: translateY(0px) rotate(45deg);
+      box-shadow: 0 0 0 #fff;
+    }
+    .toggle::after{
+      content:"";
+      position: absolute;
+      width:30px;
+      height:1.8px;
+      background:#fff;
+      transition: 0.2s;
+      transform: translateY(10px);
+    }
+    
+    .toggle.active::after{
+        transform: translateY(0px) rotate(-45deg);
+      }
+    
+    .container{
+        max-width:700px;
+    }
+    .github{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:30rem;
+        animation: telegram infinite 20s linear;
+    }
+    .telegram{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:15rem;
+        animation: telegram infinite 20s linear;
+    }
+    
+    .navigation{
+        display:none;
+    }
+    .toggle{
+        display:block;
+        margin-left:auto;
+    }
+    .menu{
+        display:block;
+    }
+    .navigation {
+        position: absolute;
+        width:100%;
+        height:450px;
+        right:0;
+        top:70px;
+        z-index: 99;
+        background-color: #243646;
+    }  
+    .navigation{
+        flex-direction: column;
+    }
+    .nav__item +.nav__item{
+        margin-left:0;
+    }
+    .nav__list{
+        display:block;
+        padding: 0.8em 1em;
+        background-color: #243646;
+        border-bottom: 1px dotted #4EB1BA;
+        text-align: center;
+    }
+}
+
+@media(max-width:600px){
+    .about__name:after{
+         top:50%;
+         left:50%;
+         transform: translateX(-50%);
+    }
+    .footer__copyright{
+        text-align: center;
+    }
+}
+@media(max-width:550px){
+    .github{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:25rem;
+        animation: telegram infinite 20s linear;
+    }
+    .telegram{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:15rem;
+        animation: telegram infinite 20s linear;
+    }
+}
+@media(max-width:470px){
+    .github{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:20rem;
+        animation: telegram infinite 20s linear;
+    }
+    .telegram{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:10rem;
+        animation: telegram infinite 20s linear;
+    }
+    .whatsapp{
+        position: absolute;
+        top: calc(60% - 0rem);
+        left:5rem;
+        animation: wapp infinite 30s linear;
+    }
+    .contacts{
+        padding:30px;
+    }
+    .code{
+        padding:30px;
+    }
+    .lang{
+        padding:30px;
+    }
+    .edu{
+        padding:30px;
+    }
+    .skills{
+        padding:30px;
+    }
+    
+}
