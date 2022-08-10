@@ -170,7 +170,7 @@ ul li{
     display:block;
     width:40px;
     height:40px;
-    background-image: url('/icons/whatsapp-svgrepo-com.svg');
+    background-image: url('../icons/whatsapp-svgrepo-com.svg');
 }
 .icon_telegram{
     display:block;
