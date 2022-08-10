@@ -176,7 +176,7 @@ ul li{
     display:block;
     width:40px;
     height:40px;
-    background-image: url('/icons/send_black_24dp.svg');
+    background-image: url('../icons/send_black_24dp.svg');
     background-repeat: no-repeat;
 }
 .telegram{
