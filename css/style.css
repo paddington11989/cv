@@ -276,7 +276,7 @@ ul li{
         position: absolute;
         top: calc(60% - 0rem);
         left:15rem;
-        animation: telegram infinite 20s linear;
+        animation: telegram infinite 30s linear;
     }
     
     .navigation{
