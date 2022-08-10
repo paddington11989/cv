@@ -166,19 +166,6 @@ ul li{
     color:#fff;
 }
 
-.icon{
-    display:block;
-    width:40px;
-    height:40px;
-    background-image: url('../icons/whatsapp-svgrepo-com.svg');
-}
-.icon_telegram{
-    display:block;
-    width:40px;
-    height:40px;
-    background-image: url('../icons/send_black_24dp.svg');
-    background-repeat: no-repeat;
-}
 .telegram{
     position: absolute;
     top: calc(60% - 0rem);
@@ -349,6 +336,21 @@ ul li{
         left:15rem;
         animation: telegram infinite 20s linear;
     }
+    .contacts{
+        padding:30px;
+    }
+    .code{
+        padding:30px;
+    }
+    .lang{
+        padding:30px;
+    }
+    .edu{
+        padding:30px;
+    }
+    .skills{
+        padding:30px;
+    }
 }
 @media(max-width:470px){
     .github{
@@ -369,20 +371,11 @@ ul li{
         left:5rem;
         animation: wapp infinite 30s linear;
     }
-    .contacts{
-        padding:30px;
-    }
-    .code{
-        padding:30px;
-    }
-    .lang{
-        padding:30px;
-    }
-    .edu{
-        padding:30px;
-    }
-    .skills{
-        padding:30px;
-    }
     
+    
+}
+@media(max-width:470px){
+    .section__block{
+        padding:20px;
+    }
 }
