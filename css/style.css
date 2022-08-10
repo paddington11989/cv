@@ -371,11 +371,26 @@ ul li{
         left:5rem;
         animation: wapp infinite 30s linear;
     }
-    
-    
-}
-@media(max-width:470px){
-    .section__block{
+    .contacts{
         padding:20px;
     }
+    .code{
+        padding:20px;
+    }
+    .lang{
+        padding:20px;
+    }
+    .edu{
+        padding:20px;
+    }
+    .skills{
+        padding:20px;
+    }
+    
+}
+@media(max-width:425px){
+    .section__block{
+        padding:13px;
+    }
+    
 }
