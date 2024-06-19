@@ -117,14 +117,17 @@ ul li{
 .color_blue{
     color:#348acb;
 }
-.color_red{
-    color:rgb(246, 53, 172);
+.project-code{
+    padding:8px 0px;
 }
-.color_green{
-    color:rgb(112, 237, 34);
+.code-link{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
 }
-.color_grey{
-    color:rgb(179, 179, 179);
+.code-link:hover{
+    font-weight: 600;
 }
 
 
